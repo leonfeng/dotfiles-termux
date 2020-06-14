@@ -1,0 +1,5 @@
+[pull]
+	rebase = false
+[user]
+	email = leon@feng.am
+	name = Leon Feng
