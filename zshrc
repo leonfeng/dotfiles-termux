@@ -97,3 +97,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias cdd="cd ~/Developer"
+alias ls="ls -FG"
+alias tree="tree -FC"
