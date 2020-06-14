@@ -62,6 +62,16 @@ augroup END
 
 " Behavior 1}}}
 
+" Commands {{{1
+
+command! Einit :execute 'edit' '$VIMCONFIG/init.vim'
+command! Lsft :execute 'echo' "glob($VIMRUNTIME . '/ftplugin/*.vim')"
+command! Lssyn :execute 'echo' "glob($VIMRUNTIME . '/syntax/*.vim')"
+command! PU PlugUpdate | PlugUpgrade
+"command! Todo :Grepper -tool git -query '\(TODO\|FIXME\)'
+
+" Commands 1}}}
+
 " Functions {{{1
 
 " TwiddleCase() {{{2
