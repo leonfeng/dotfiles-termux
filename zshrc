@@ -68,10 +68,7 @@ ZSH_THEME="random"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git keychain)
-
-zstyle :omz:plugins:keychain agents gpg,ssh
-zstyle :omz:plugins:keychain options --lockwait 0
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
